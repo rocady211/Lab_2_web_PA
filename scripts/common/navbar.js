@@ -41,7 +41,7 @@ function getNavLinks(base, role) {
 
     return `
         <li class="nav-item"><a class="nav-link" href="${base}index.html#login"><i class="bi bi-box-arrow-in-right"></i> Iniciar Sesión</a></li>
-        <li class="nav-item"><a class="nav-link" href="${base}index.html#login">Registro</a></li>
+        <li class="nav-item"><a class="nav-link" href="${base}pantallas/registro.html">Registro</a></li>
     `;
 }
 
