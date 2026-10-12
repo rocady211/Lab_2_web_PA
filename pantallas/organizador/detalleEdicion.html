@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Edición</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="eventos.html">EventApp Organizador</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="eventos.html">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="miPerfil.html">Mi Perfil</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="eventos.html">Eventos</a></li>
+                <li class="breadcrumb-item"><a href="detalleEvento.html">Conferencia de Tecnología</a></li>
+                <li class="breadcrumb-item active">Edición 2026</li>
+            </ol>
+        </nav>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Información</h5>
+                        <p class="mb-1"><strong>Fecha:</strong> 15 de marzo de 2026</p>
+                        <p class="mb-1"><strong>Lugar:</strong> Centro de Convenciones</p>
+                        <p class="mb-0"><strong>Cupos:</strong> 200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h4 class="mb-3">Inscritos</h4>
+                <table class="table table-striped bg-white">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ana Torres</td>
+                            <td>ana.torres@mail.com</td>
+                            <td><span class="badge bg-success">Confirmado</span></td>
+                        </tr>
+                        <tr>
+                            <td>Luis Mora</td>
+                            <td>luis.mora@mail.com</td>
+                            <td><span class="badge bg-warning text-dark">Pendiente</span></td>
+                        </tr>
+                        <tr>
+                            <td>Carla Pérez</td>
+                            <td>carla.perez@mail.com</td>
+                            <td><span class="badge bg-success">Confirmado</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
